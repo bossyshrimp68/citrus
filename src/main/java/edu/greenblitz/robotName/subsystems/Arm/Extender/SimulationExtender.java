@@ -66,4 +66,14 @@ public class SimulationExtender implements IExtender{
         inputs.absoluteEncoderPosition = extenderSimulation.getPositionMeters();
         inputs.absoluteEncoderVelocity = extenderSimulation.getVelocityMetersPerSecond();
     }
+
+    @Override
+    public void enableSoftLimit(CANSparkMax.SoftLimitDirection direction, boolean isEnabled) {
+
+    }
+
+    @Override
+    public void setSoftLimit(CANSparkMax.SoftLimitDirection direction, double limit) {
+
+    }
 }

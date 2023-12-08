@@ -25,4 +25,14 @@ public class ReplayExtender implements IExtender{
     public void updateInputs(ExtenderInputsAutoLogged inputs) {
 
     }
+
+    @Override
+    public void setSoftLimit(CANSparkMax.SoftLimitDirection direction, double limit) {
+
+    }
+
+    @Override
+    public void enableSoftLimit(CANSparkMax.SoftLimitDirection direction, boolean isEnabled) {
+
+    }
 }
